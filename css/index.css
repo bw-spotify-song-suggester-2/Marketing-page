@@ -139,10 +139,10 @@ body {
   width: 100%;
   justify-content: space-evenly;
   align-items: baseline;
-  border: 1px solid red;
   color: #000000;
   background-color: #1DD15D;
   font-size: 3rem;
+  border: 1px solid #000000;
 }
 .navbar a {
   font-size: 2rem;
@@ -150,7 +150,6 @@ body {
   color: #000000;
   text-decoration: none;
   justify-content: space-evenly;
-  border: 1px solid red;
 }
 .navbar a:hover {
   color: white;
@@ -176,14 +175,13 @@ footer {
   padding-right: 1%;
   border: 1px solid red;
   color: #FFFFFF;
+  line-height: 1.5rem;
+  margin-top: 25px;
 }
 .section-one .smaller-image-one {
   max-width: 500px;
   max-height: auto;
   padding-left: 1%;
-}
-.section-one .smaller-image-one img {
-  border-radius: 10px;
 }
 .section-two {
   margin: 30px;
@@ -196,14 +194,12 @@ footer {
   padding-right: 1%;
   border: 1px solid red;
   color: #FFFFFF;
+  line-height: 1.5rem;
 }
 .section-two .smaller-image-two {
   max-width: 500px;
   max-height: auto;
   padding-left: 1%;
-}
-.section-two .smaller-image-two img {
-  border-radius: 10px;
 }
 .section-three {
   margin: 30px;
@@ -216,14 +212,43 @@ footer {
   padding-right: 1%;
   border: 1px solid red;
   color: #FFFFFF;
+  line-height: 1.5rem;
 }
 .section-three .smaller-image-three {
   max-width: 500px;
   max-height: auto;
   padding-left: 1%;
 }
-.section-three .smaller-image-three img {
-  border-radius: 10px;
+.social {
+  text-align: center;
+  margin: 5px 2px;
+}
+.social .fa {
+  margin-top: 25px;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-decoration: none;
+}
+.social .fa:hover {
+  background-color: #FFFFFF;
+  color: #1DD15D;
+}
+.social .fa-facebook {
+  background: #1DD15D;
+  color: #FFFFFF;
+}
+.social .fa-twitter {
+  background: #1DD15D;
+  color: #FFFFFF;
+}
+.social .fa-youtube {
+  background: #1DD15D;
+  color: #FFFFFF;
+}
+.social .fa-instagram {
+  background: #1DD15D;
+  color: #FFFFFF;
 }
 .roadie {
   margin: 30px;
@@ -234,7 +259,7 @@ footer {
 .roadie .roadie-name {
   width: 48%;
   padding-right: 1%;
-  border: 1px solid red;
+  border: 1px solid #1DD15D;
   color: #1DD15D;
   text-align: center;
   padding-top: 200px;
@@ -248,16 +273,17 @@ footer {
 }
 .roadie .roadie-name button {
   background-color: #000000;
+  margin-top: 50px;
+}
+.roadie .roadie-name button .git-button {
   text-decoration: none;
   color: #1DD15D;
   font-size: 1.5rem;
-  margin-top: 50px;
 }
 .roadie .roadie-image {
   max-width: 500px;
   max-height: auto;
   padding-left: 1%;
-  border: 1px solid red;
 }
 .roadie .roadie-image img {
   border-radius: 10px;
