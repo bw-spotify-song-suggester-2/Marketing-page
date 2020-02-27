@@ -130,3 +130,10 @@ html,
 body {
   font-family: 'Lato', sans-serif;
 }
+.smaller-image {
+  max-width: 500px;
+  max-height: auto;
+}
+.section-one {
+  display: inline-block;
+}
