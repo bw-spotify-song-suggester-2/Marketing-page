@@ -278,6 +278,7 @@ footer {
 }
 .roadie .roadie-name button:hover {
   background-color: #1DD15D;
+  color: black;
 }
 .roadie .roadie-name button .git-button {
   text-decoration: none;
