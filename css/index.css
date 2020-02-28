@@ -270,15 +270,22 @@ footer {
 .roadie .roadie-name .roadie-title {
   font-size: 2rem;
   color: #FFFFFF;
+  margin-top: 20px;
 }
 .roadie .roadie-name button {
   background-color: #000000;
   margin-top: 50px;
 }
+.roadie .roadie-name button:hover {
+  background-color: #1DD15D;
+}
 .roadie .roadie-name button .git-button {
   text-decoration: none;
   color: #1DD15D;
   font-size: 1.5rem;
+}
+.roadie .roadie-name button .git-button:hover {
+  color: black;
 }
 .roadie .roadie-image {
   max-width: 500px;
