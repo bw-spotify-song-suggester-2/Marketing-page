@@ -2,9 +2,7 @@
     max-width: auto;
 
     @media @mobile {
-        flex-direction: column;
-        justify-content: center;
-        width: 90%;
+        display: none;
     }
 
 }
@@ -160,6 +158,11 @@
         font-size: 30px;
         width: 50px;
         text-decoration: none; 
+
+        @media @mobile {
+           font-size: 20px;
+           width: 40px;
+        }
     }
 
     .fa:hover {

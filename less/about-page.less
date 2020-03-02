@@ -12,20 +12,45 @@
     color: @spotify-green;
     text-align: center;
     padding-top: 200px;
+
+    @media @mobile {
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 12px;
+      max-width: 400px;
+      width: 96%;
+      padding-top: 20px;
+      border: none;
+      
+    }
     
     h2 {
       font-size: 4rem;
+
+      @media @mobile {
+        font-size: 2rem;
+      }
     }
 
     .roadie-title {
       font-size: 2rem;
       color: @white;
       margin-top: 20px;
+
+      @media @mobile {
+        font-size: 1.6rem;
+        margin-top: 12px;
+      }
     }
 
     button {
       background-color: @black;
       margin-top: 50px;
+
+      @media @mobile {
+        margin-top: 12px;
+        margin-bottom: 24px;
+      }
       
       &:hover {
         background-color: @spotify-green;
@@ -49,9 +74,19 @@
     max-height: auto;
     padding-left: 1%;
       
-      img {
-        border-radius: 10px;
-      }
+    img {
+     border-radius: 10px;
+    }
+
+    @media @mobile {
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 30px;
+      max-width: 360px;
+      width: 90%;
+    }
+
+
   }
 } 
 
