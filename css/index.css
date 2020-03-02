@@ -144,6 +144,29 @@ body {
   font-size: 3rem;
   border: 1px solid #000000;
 }
+@media (max-width: 1000px) {
+  .navbar {
+    display: inline-block;
+    text-align: center;
+    padding: 16px;
+    max-width: 1000px;
+  }
+  .navbar h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 800px) {
+  .navbar {
+    position: static;
+    display: inline-block;
+    text-align: center;
+    padding: 16px;
+    max-width: 800px;
+  }
+  .navbar h1 {
+    font-size: 3rem;
+  }
+}
 @media (max-width: 500px) {
   .navbar {
     position: static;
@@ -173,6 +196,11 @@ a:hover {
     color: #1DD15D;
   }
 }
+@media (max-width: 1000px) {
+  a {
+    font-size: 1.5rem;
+  }
+}
 @media (max-width: 500px) {
   a {
     flex-direction: row;
@@ -193,6 +221,16 @@ footer {
 .header-image {
   max-width: auto;
 }
+@media (max-width: 1000px) {
+  .header-image {
+    max-width: 1000px;
+  }
+}
+@media (max-width: 800px) {
+  .header-image {
+    max-width: 800px;
+  }
+}
 @media (max-width: 500px) {
   .header-image {
     display: none;
@@ -203,6 +241,18 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+@media (max-width: 1000px) {
+  .section-one {
+    flex-direction: row;
+    margin: auto;
+  }
+}
+@media (max-width: 800px) {
+  .section-one {
+    flex-direction: row;
+    margin: auto;
+  }
 }
 @media (max-width: 500px) {
   .section-one {
@@ -220,6 +270,18 @@ footer {
   line-height: 1.5rem;
   margin-top: 25px;
 }
+@media (max-width: 1000px) {
+  .section-one .text-one {
+    flex-direction: row;
+    margin: auto;
+  }
+}
+@media (max-width: 800px) {
+  .section-one .text-one {
+    flex-direction: row;
+    margin: auto;
+  }
+}
 @media (max-width: 500px) {
   .section-one .text-one {
     flex-direction: column;
@@ -227,12 +289,24 @@ footer {
     margin-left: 12px;
     max-width: 400px;
     width: 96%;
+    padding-top: 12px;
+    padding-bottom: 20px;
   }
 }
 .section-one .smaller-image-one {
   max-width: 500px;
   max-height: auto;
   padding-left: 1%;
+}
+@media (max-width: 1000px) {
+  .section-one .smaller-image-one {
+    max-width: 420px;
+  }
+}
+@media (max-width: 800px) {
+  .section-one .smaller-image-one {
+    max-width: 360px;
+  }
 }
 @media (max-width: 500px) {
   .section-one .smaller-image-one {
@@ -249,6 +323,18 @@ footer {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+@media (max-width: 1000px) {
+  .section-two {
+    flex-direction: row;
+    margin: auto;
+  }
+}
+@media (max-width: 800px) {
+  .section-two {
+    flex-direction: row;
+    margin: auto;
+  }
+}
 @media (max-width: 500px) {
   .section-two {
     flex-direction: column-reverse;
@@ -264,6 +350,18 @@ footer {
   line-height: 1.5rem;
   margin-top: 25px;
 }
+@media (max-width: 1000px) {
+  .section-two .text-two {
+    flex-direction: row;
+    margin: auto;
+  }
+}
+@media (max-width: 800px) {
+  .section-two .text-two {
+    flex-direction: row;
+    margin: auto;
+  }
+}
 @media (max-width: 500px) {
   .section-two .text-two {
     flex-direction: column;
@@ -271,12 +369,24 @@ footer {
     margin-left: 12px;
     max-width: 400px;
     width: 96%;
+    padding-top: 12px;
+    padding-bottom: 20px;
   }
 }
 .section-two .smaller-image-two {
   max-width: 500px;
   max-height: auto;
   padding-left: 1%;
+}
+@media (max-width: 1000px) {
+  .section-two .smaller-image-two {
+    max-width: 420px;
+  }
+}
+@media (max-width: 800px) {
+  .section-two .smaller-image-two {
+    max-width: 360px;
+  }
 }
 @media (max-width: 500px) {
   .section-two .smaller-image-two {
@@ -293,6 +403,18 @@ footer {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+@media (max-width: 1000px) {
+  .section-three {
+    flex-direction: row;
+    margin: auto;
+  }
+}
+@media (max-width: 800px) {
+  .section-three {
+    flex-direction: row;
+    margin: auto;
+  }
+}
 @media (max-width: 500px) {
   .section-three {
     flex-direction: column;
@@ -307,6 +429,20 @@ footer {
   color: #FFFFFF;
   line-height: 1.5rem;
   margin-top: 25px;
+  padding-top: 12px;
+  padding-bottom: 20px;
+}
+@media (max-width: 1000px) {
+  .section-three .text-three {
+    flex-direction: row;
+    margin: auto;
+  }
+}
+@media (max-width: 800px) {
+  .section-three .text-three {
+    flex-direction: row;
+    margin: auto;
+  }
 }
 @media (max-width: 500px) {
   .section-three .text-three {
@@ -321,6 +457,16 @@ footer {
   max-width: 500px;
   max-height: auto;
   padding-left: 1%;
+}
+@media (max-width: 1000px) {
+  .section-three .smaller-image-three {
+    max-width: 360px;
+  }
+}
+@media (max-width: 800px) {
+  .section-three .smaller-image-three {
+    max-width: 360px;
+  }
 }
 @media (max-width: 500px) {
   .section-three .smaller-image-three {
@@ -382,6 +528,27 @@ footer {
   text-align: center;
   padding-top: 200px;
 }
+@media (max-width: 1000px) {
+  .roadie .roadie-name {
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 12px;
+    max-width: 400px;
+    width: 96%;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .roadie .roadie-name {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12px;
+    max-width: 400px;
+    width: 96%;
+    padding-top: 20px;
+    border: none;
+  }
+}
 @media (max-width: 500px) {
   .roadie .roadie-name {
     flex-direction: column;
@@ -396,6 +563,16 @@ footer {
 .roadie .roadie-name h2 {
   font-size: 4rem;
 }
+@media (max-width: 1000px) {
+  .roadie .roadie-name h2 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 800px) {
+  .roadie .roadie-name h2 {
+    font-size: 3rem;
+  }
+}
 @media (max-width: 500px) {
   .roadie .roadie-name h2 {
     font-size: 2rem;
@@ -406,6 +583,18 @@ footer {
   color: #FFFFFF;
   margin-top: 20px;
 }
+@media (max-width: 1000px) {
+  .roadie .roadie-name .roadie-title {
+    font-size: 1.6rem;
+    margin-top: 12px;
+  }
+}
+@media (max-width: 800px) {
+  .roadie .roadie-name .roadie-title {
+    font-size: 1.6rem;
+    margin-top: 12px;
+  }
+}
 @media (max-width: 500px) {
   .roadie .roadie-name .roadie-title {
     font-size: 1.6rem;
@@ -415,6 +604,18 @@ footer {
 .roadie .roadie-name button {
   background-color: #000000;
   margin-top: 50px;
+}
+@media (max-width: 1000px) {
+  .roadie .roadie-name button {
+    margin-top: 12px;
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 800px) {
+  .roadie .roadie-name button {
+    margin-top: 12px;
+    margin-bottom: 24px;
+  }
 }
 @media (max-width: 500px) {
   .roadie .roadie-name button {
@@ -441,6 +642,24 @@ footer {
 }
 .roadie .roadie-image img {
   border-radius: 10px;
+}
+@media (max-width: 1000px) {
+  .roadie .roadie-image {
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 30px;
+    max-width: 500px;
+    width: 90%;
+  }
+}
+@media (max-width: 800px) {
+  .roadie .roadie-image {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    max-width: 460px;
+    width: 90%;
+  }
 }
 @media (max-width: 500px) {
   .roadie .roadie-image {

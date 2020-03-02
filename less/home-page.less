@@ -1,10 +1,17 @@
 .header-image {
     max-width: auto;
 
+    @media @desktop {
+        max-width: 1000px;
+    }
+
+    @media @tablet {
+        max-width: 800px; 
+    }
+
     @media @mobile {
         display: none;
     }
-
 }
 
 
@@ -13,6 +20,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
+    @media @desktop {
+        flex-direction: row;
+        margin: auto;
+    }
+
+    @media @tablet {
+        flex-direction: row;
+        margin: auto;
+    }
 
     @media @mobile {
         flex-direction: column;
@@ -29,12 +46,26 @@
         line-height: 1.5rem;
         margin-top: 25px;
 
+        @media @desktop {
+            flex-direction: row;
+            margin: auto;
+            
+        }
+
+        @media @tablet {
+            flex-direction: row;
+            margin: auto;
+            
+        }
+
         @media @mobile {
             flex-direction: column;
             justify-content: center;
             margin-left: 12px;
             max-width: 400px;
             width: 96%;
+            padding-top: 12px;
+            padding-bottom: 20px;
         }
     }
   
@@ -43,6 +74,14 @@
         max-height: auto;
         padding-left: 1%;
         //border-radius: 20px;
+
+        @media @desktop {
+            max-width: 420px;
+        }
+
+        @media @tablet {
+            max-width: 360px;
+        }
         
         @media @mobile {
             flex-direction: column;
@@ -51,7 +90,6 @@
             max-width: 360px;
             width: 90%;
         }
-                     
     }
 }
 
@@ -61,12 +99,22 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 
+    @media @desktop {
+        flex-direction: row;
+        margin: auto;
+    }
+
+    @media @tablet {
+        flex-direction: row;
+        margin: auto;
+    }
+
     @media @mobile {
         flex-direction: column-reverse;
         margin-left: 30px;
         width: 90%;
     }
-    
+
     .text-two {
         width: 48%;
         padding-right: 1%;
@@ -75,12 +123,26 @@
         line-height: 1.5rem;
         margin-top: 25px;
 
+        @media @desktop {
+            flex-direction: row;
+            margin: auto;
+            
+        }
+
+        @media @tablet {
+            flex-direction: row;
+            margin: auto;
+            
+        }
+
         @media @mobile {
             flex-direction: column;
             justify-content: center;
             margin-left: 12px;
             max-width: 400px;
             width: 96%;
+            padding-top: 12px;
+            padding-bottom: 20px;
         }
     }
       
@@ -89,6 +151,14 @@
         max-height: auto;
         padding-left: 1%;
         //border-radius: 20px;
+
+        @media @desktop {
+            max-width: 420px;
+        }
+
+        @media @tablet {
+            max-width: 360px;
+        }
 
         @media @mobile {
             flex-direction: column;
@@ -108,13 +178,23 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 
+    @media @desktop {
+        flex-direction: row;
+        margin: auto;
+    }
+
+    @media @tablet {
+        flex-direction: row;
+        margin: auto;
+    }
+
     @media @mobile {
         flex-direction: column;
         width: 90%;
         margin-left: 30px;
         width: 90%;
     }
-        
+
     .text-three {
         width: 48%;
         padding-right: 1%;
@@ -122,6 +202,20 @@
         color: @white;
         line-height: 1.5rem;
         margin-top: 25px;
+        padding-top: 12px;
+        padding-bottom: 20px;
+
+        @media @desktop {
+            flex-direction: row;
+            margin: auto;
+            
+        }
+
+        @media @tablet {
+            flex-direction: row;
+            margin: auto;
+            
+        }
 
         @media @mobile {
             flex-direction: column;
@@ -137,6 +231,14 @@
         max-height: auto;
         padding-left: 1%;
         //border-radius: 20px;
+
+        @media @desktop {
+            max-width: 360px;
+        }
+
+        @media @tablet {
+            max-width: 360px;
+        }
 
         @media @mobile {
             flex-direction: column;
