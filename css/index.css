@@ -281,6 +281,7 @@ footer {
   .section-one .text-one {
     flex-direction: row;
     margin: auto;
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 500px) {
@@ -362,6 +363,7 @@ footer {
   .section-two .text-two {
     flex-direction: row;
     margin: auto;
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 500px) {
@@ -443,6 +445,7 @@ footer {
   .section-three .text-three {
     flex-direction: row;
     margin: auto;
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 500px) {
@@ -452,6 +455,8 @@ footer {
     margin-left: 12px;
     max-width: 400px;
     width: 96%;
+    padding-top: 12px;
+    padding-bottom: 20px;
   }
 }
 .section-three .smaller-image-three {
