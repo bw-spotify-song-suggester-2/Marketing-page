@@ -133,7 +133,7 @@ body {
 }
 .navbar {
   margin: 20px auto;
-  padding: 30px;
+  padding: 24px;
   position: fixed;
   display: flex;
   width: 100%;
@@ -266,8 +266,9 @@ footer {
   width: 48%;
   padding-right: 1%;
   color: #FFFFFF;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-align: center;
+  line-height: 1.5rem;
   margin-top: 200px;
 }
 @media (max-width: 1000px) {
@@ -345,10 +346,11 @@ footer {
 .section-two .text-two {
   width: 48%;
   padding-right: 1%;
-  border: 1px solid red;
   color: #FFFFFF;
+  font-size: 1.4rem;
+  text-align: center;
   line-height: 1.5rem;
-  margin-top: 25px;
+  margin-top: 200px;
 }
 @media (max-width: 1000px) {
   .section-two .text-two {
@@ -425,12 +427,11 @@ footer {
 .section-three .text-three {
   width: 48%;
   padding-right: 1%;
-  border: 1px solid red;
   color: #FFFFFF;
+  font-size: 1.4rem;
+  text-align: center;
   line-height: 1.5rem;
-  margin-top: 25px;
-  padding-top: 12px;
-  padding-bottom: 20px;
+  margin-top: 200px;
 }
 @media (max-width: 1000px) {
   .section-three .text-three {
