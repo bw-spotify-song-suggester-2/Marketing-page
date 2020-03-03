@@ -459,6 +459,45 @@ footer {
     padding-bottom: 20px;
   }
 }
+.section-three .text-three button {
+  background-color: #000000;
+  margin-top: 50px;
+  display: none;
+}
+@media (max-width: 1000px) {
+  .section-three .text-three button {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .section-three .text-three button {
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 500px) {
+  .section-three .text-three button {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 24px;
+  }
+}
+.section-three .text-three button:hover {
+  background-color: #1DD15D;
+  color: black;
+}
+.section-three .text-three button .signup {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  color: #1DD15D;
+  font-size: 1.5rem;
+}
+.section-three .text-three button .signup:hover {
+  color: black;
+}
 .section-three .smaller-image-three {
   max-width: 500px;
   max-height: auto;
@@ -489,7 +528,7 @@ footer {
 }
 .social .fa {
   margin-top: 25px;
-  padding: 20px;
+  padding: 18px;
   font-size: 30px;
   width: 50px;
   text-decoration: none;
@@ -630,15 +669,17 @@ footer {
 }
 .roadie .roadie-name button:hover {
   background-color: #1DD15D;
-  color: black;
+  color: #000000;
 }
 .roadie .roadie-name button .git-button {
   text-decoration: none;
   color: #1DD15D;
+  margin: 0px;
+  padding: 0px;
   font-size: 1.5rem;
 }
 .roadie .roadie-name button .git-button:hover {
-  color: black;
+  color: #000000;
 }
 .roadie .roadie-image {
   max-width: 500px;
