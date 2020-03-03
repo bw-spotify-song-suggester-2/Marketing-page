@@ -265,10 +265,10 @@ footer {
 .section-one .text-one {
   width: 48%;
   padding-right: 1%;
-  border: 1px solid red;
   color: #FFFFFF;
-  line-height: 1.5rem;
-  margin-top: 25px;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 200px;
 }
 @media (max-width: 1000px) {
   .section-one .text-one {
