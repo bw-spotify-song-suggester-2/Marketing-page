@@ -13,7 +13,6 @@
     padding-top: 200px;
 
     @media @desktop {
-      //flex-direction: row;
       justify-content: center;
       margin-left: 12px;
       max-width: 400px;
@@ -79,8 +78,7 @@
     }  // close roadie title
 
     button {
-      background-color: @black;
-      margin-top: 50px;
+      .button;
 
       @media @desktop {
         margin-top: 12px;
@@ -98,8 +96,7 @@
       }  // close media
       
       &:hover {
-        background-color: @spotify-green;
-        color: @black;
+        .buttonhover;
       }  // close hover
       
       .git-button {
@@ -107,10 +104,10 @@
         color: @spotify-green;
         margin: 0px;
         padding: 0px;
-       font-size: 1.5rem;
+        font-size: 1.5rem;
 
         &:hover {
-          color: @black; 
+          .buttonhover;
         }  // close &hover
       }  // close git button
     }  // close button
@@ -120,11 +117,7 @@
     max-width: 500px;
     max-height: auto;
     padding-left: 1%;
-      
-    img {
-     border-radius: 10px;
-    } // close img
-
+    
     @media @desktop {
       flex-direction: row;
       justify-content: center;

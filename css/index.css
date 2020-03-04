@@ -126,6 +126,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.button {
+  background-color: #000000;
+  margin-top: 50px;
+}
+.buttonhover {
+  background-color: #1DD15D;
+  color: #000000;
+}
 html,
 body {
   font-family: 'Lato', sans-serif;
@@ -141,7 +149,7 @@ body {
   align-items: baseline;
   color: #000000;
   background-color: #1DD15D;
-  font-size: 3rem;
+  font-size: 4rem;
   border: 1px solid #000000;
 }
 @media (max-width: 1000px) {
@@ -266,9 +274,9 @@ footer {
   width: 48%;
   padding-right: 1%;
   color: #FFFFFF;
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   text-align: center;
-  line-height: 2rem;
+  line-height: 3rem;
   margin-top: 200px;
 }
 @media (max-width: 1000px) {
@@ -348,9 +356,9 @@ footer {
   width: 48%;
   padding-right: 1%;
   color: #FFFFFF;
-  font-size: 1.8rem;
+  font-size: 3rem;
   text-align: center;
-  line-height: 2rem;
+  line-height: 3rem;
   margin-top: 200px;
 }
 @media (max-width: 1000px) {
@@ -430,9 +438,9 @@ footer {
   width: 48%;
   padding-right: 1%;
   color: #FFFFFF;
-  font-size: 1.8rem;
+  font-size: 3rem;
   text-align: center;
-  line-height: 2rem;
+  line-height: 3rem;
   margin-top: 200px;
 }
 @media (max-width: 1000px) {
@@ -486,7 +494,7 @@ footer {
 }
 .section-three .text-three button:hover {
   background-color: #1DD15D;
-  color: black;
+  color: #000000;
 }
 .section-three .text-three button .signup {
   text-decoration: none;
@@ -496,7 +504,8 @@ footer {
   font-size: 1.5rem;
 }
 .section-three .text-three button .signup:hover {
-  color: black;
+  background-color: #1DD15D;
+  color: #000000;
 }
 .section-three .smaller-image-three {
   max-width: 500px;
@@ -679,15 +688,13 @@ footer {
   font-size: 1.5rem;
 }
 .roadie .roadie-name button .git-button:hover {
+  background-color: #1DD15D;
   color: #000000;
 }
 .roadie .roadie-image {
   max-width: 500px;
   max-height: auto;
   padding-left: 1%;
-}
-.roadie .roadie-image img {
-  border-radius: 10px;
 }
 @media (max-width: 1000px) {
   .roadie .roadie-image {
