@@ -212,7 +212,7 @@ a:hover {
   }
 }
 footer {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   color: #1DD15D;
   text-align: center;
   margin: 25px;
@@ -266,9 +266,9 @@ footer {
   width: 48%;
   padding-right: 1%;
   color: #FFFFFF;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   text-align: center;
-  line-height: 1.5rem;
+  line-height: 2rem;
   margin-top: 200px;
 }
 @media (max-width: 1000px) {
@@ -348,9 +348,9 @@ footer {
   width: 48%;
   padding-right: 1%;
   color: #FFFFFF;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   text-align: center;
-  line-height: 1.5rem;
+  line-height: 2rem;
   margin-top: 200px;
 }
 @media (max-width: 1000px) {
@@ -430,9 +430,9 @@ footer {
   width: 48%;
   padding-right: 1%;
   color: #FFFFFF;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   text-align: center;
-  line-height: 1.5rem;
+  line-height: 2rem;
   margin-top: 200px;
 }
 @media (max-width: 1000px) {
